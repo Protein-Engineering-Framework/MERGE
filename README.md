@@ -14,3 +14,4 @@ An evolutionary probability-based hybrid model to support protein engineering ca
 An evolutionary probability-based hybrid model to support protein engineering campaigns
 
 This repository contains the [source files](/src) to reproduce the results of our manuscript using the form of protein sequence encoding in combination with the hybrid (unsupervised/supervised) prediction presented using a single [protein-fitness dataset as an example](/rl401_yeast) of a low-*N* protein engineering task.
+To reproduce the results of the example, run the provided [Jupyter Notebook](example.ipynb).
