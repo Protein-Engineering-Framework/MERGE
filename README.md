@@ -1,7 +1,7 @@
 This repository contains supplementary information to
 
 Alexander-Maurice Illig<sup>*1,§*</sup>, Niklas E. Siedhoff<sup>*1,§*</sup>, Ulrich Schwaneberg<sup>*1,2*</sup>, Mehdi D. Davari<sup>*3,\**</sup>, <br>
-An evolutionary probability-based hybrid model to support protein engineering campaigns, *To be published*<br>
+A hybrid model combining evolutionary probability and machine learning leverages data-driven protein engineering, *To be published*<br>
 
 <sup>*1*</sup><sub>Institute of Biotechnology, RWTH Aachen University, Worringer Weg 3, 52074 Aachen, Germany</sub> <br>
 <sup>*2*</sup><sub>DWI-Leibniz Institute for Interactive Materials, Forckenbeckstraße 50, 52074 Aachen, Germany</sub> <br>
