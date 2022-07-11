@@ -16,3 +16,5 @@ An evolutionary probability-based hybrid model to support protein engineering ca
 
 This repository contains the [source files](/Examples/scripts) to reproduce the results of our manuscript using the form of protein sequence encoding in combination with the hybrid (statistical energy of a DCA model/predicted fitness of a trained supervised regression model) prediction presented using two sequence-fitness datasets as examples of a ["low-*N*"](/Examples/example_rl401.ipynb) and a ["substitutional extrapolation"](/Examples/example_pabp.ipynb) protein engineering task.
 To reproduce the results of the example, run the provided Jupyter Notebooks. The ["substitutional extrapolation"](/Examples/example_pabp.ipynb) notebook also contains commands for preprocessing tasks required to create a hybrid model.
+
+Using our protein engineering framework [PyPEF](https://github.com/Protein-Engineering-Framework/PyPEF), a simplified application of hybrid modeling alongside other machine learning-based modeling methods is possible.
