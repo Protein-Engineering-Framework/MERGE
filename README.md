@@ -12,9 +12,11 @@ Preprint available at bioRxiv: https://www.biorxiv.org/content/10.1101/2022.06.0
 
 
 # MERGE  
-A hybrid method (<ins>MERGE</ins>) combining evolutionary probability and <ins>m</ins>achine l<ins>e</ins>arning leve<ins>r</ins>a<ins>ge</ins>s data-driven protein engineering and can support protein engineering campaigns by predicting the fitness of variants based on their sequence.
+A hybrid method (<ins>MERGE</ins>) combining evolutionary probability and <ins>m</ins>achine l<ins>e</ins>arning leve<ins>r</ins>a<ins>ge</ins>s data-driven protein engineering by enabling trustworthy predicting the fitness of variants based on their sequence, even in low-*N* data situations.
 
 This repository contains the [source files](/Examples/scripts) to reproduce the results of our manuscript using the form of protein sequence encoding in combination with the hybrid (statistical energy of a DCA model/predicted fitness of a trained supervised regression model) prediction presented using two sequence-fitness datasets as examples of a ["low-*N*"](/Examples/example_rl401.ipynb) and a ["substitutional extrapolation"](/Examples/example_pabp.ipynb) protein engineering task.
 To reproduce the results of the example, run the provided Jupyter notebooks. The ["substitutional extrapolation"](/Examples/example_pabp.ipynb) notebook also contains commands for preprocessing tasks required to create a hybrid model.
+For all datasets studied, already encoded datasets containing the variant identifiers, the corresponding fitness values, and the encoded sequences are provided as CSV files and used wild-type sequences are provided as FASTA files (see [Data](https://github.com/Protein-Engineering-Framework/MERGE/tree/main/Data)).
 
-Using our protein engineering framework [PyPEF](https://github.com/Protein-Engineering-Framework/PyPEF), a simplified application of the MERGE hybrid model alongside other machine learning-based modeling methods is possible.
+## Framework Implementation
+Using our protein engineering framework [PyPEF](https://github.com/Protein-Engineering-Framework/PyPEF), a simplified application of the MERGE hybrid method alongside other encoding and machine learning-based modeling methods is possible. Variant-fitness datasets that can be used for encoding and modeling with PyPEF are provided at [Data/_variant_fitness_wtseq](https://github.com/Protein-Engineering-Framework/MERGE/tree/main/Data/_variant_fitness_wtseq).
