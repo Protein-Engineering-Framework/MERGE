@@ -12,7 +12,7 @@ Preprint available at bioRxiv: https://www.biorxiv.org/content/10.1101/2022.06.0
 
 
 # MERGE  
-A hybrid method (<ins>MERGE</ins>) combining evolutionary probability and <ins>m</ins>achine l<ins>e</ins>arning leve<ins>r</ins>a<ins>ge</ins>s data-driven protein engineering by enabling trustworthy predicting the fitness of variants based on their sequence, even in low-*N* data situations.
+A hybrid method (<ins>MERGE</ins>) combining evolutionary probability and <ins>m</ins>achine l<ins>e</ins>arning leve<ins>r</ins>a<ins>ge</ins>s data-driven protein engineering by providing reliable prediction of the fitness of a variant based on its sequence, even when only a few screened variants are available.
 
 This repository contains the [source files](/Examples/scripts) to reproduce the results of our manuscript using the form of protein sequence encoding in combination with the hybrid (statistical energy of a DCA model/predicted fitness of a trained supervised regression model) prediction presented using two sequence-fitness datasets as examples of a ["low-*N*"](/Examples/example_rl401.ipynb) and a ["substitutional extrapolation"](/Examples/example_pabp.ipynb) protein engineering task.
 To reproduce the results of the example, run the provided Jupyter notebooks. The ["substitutional extrapolation"](/Examples/example_pabp.ipynb) notebook also contains commands for preprocessing tasks required to create a hybrid model.
