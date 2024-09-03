@@ -4,6 +4,12 @@ Alexander-Maurice Illig<sup>*1,§*</sup>, Niklas E. Siedhoff<sup>*1,§*</sup>, U
 A hybrid model combining evolutionary probability and machine learning leverages data-driven protein engineering *(Working title; To be published)*<br>
 Preprint available at bioRxiv: https://www.biorxiv.org/content/10.1101/2022.06.07.495081v1
 
+now published as
+
+Evolutionary Probability and Stacked Regressions Enable Data-Driven Protein Engineering with Minimized Experimental Effort,<br>
+*J. Chem. Inf. Model.* 2024, 64, 16, 6350–6360<br>
+https://doi.org/10.1021/acs.jcim.4c00704
+
 <sup>*1*</sup><sub>Institute of Biotechnology, RWTH Aachen University, Worringer Weg 3, 52074 Aachen, Germany</sub> <br>
 <sup>*2*</sup><sub>DWI-Leibniz Institute for Interactive Materials, Forckenbeckstraße 50, 52074 Aachen, Germany</sub> <br>
 <sup>*3*</sup><sub>Department of Bioorganic Chemistry, Leibniz Institute of Plant Biochemistry, Weinberg 3, 06120 Halle, Germany</sub> <br>
@@ -17,6 +23,8 @@ A hybrid method (<ins>MERGE</ins>) combining evolutionary probability and <ins>m
 This repository contains the [source files](/Examples/scripts) to reproduce the results of our manuscript using the form of protein sequence encoding in combination with the hybrid (statistical energy of a DCA model/predicted fitness of a trained supervised regression model) prediction presented using two sequence-fitness datasets as examples of a ["low-*N*"](/Examples/example_rl401.ipynb) and a ["substitutional extrapolation"](/Examples/example_pabp.ipynb) protein engineering task.
 To reproduce the results of the example, run the provided Jupyter notebooks. The ["substitutional extrapolation"](/Examples/example_pabp.ipynb) notebook also contains commands for preprocessing tasks required to create a hybrid model.
 For all datasets studied, already encoded datasets containing the variant identifiers, the corresponding fitness values, and the encoded sequences are provided as CSV files and used wild-type sequences are provided as FASTA files (see [Data](https://github.com/Protein-Engineering-Framework/MERGE/tree/main/Data)).
+
+The new repository, which contains the source files of the published manuscript version of MERGE, is available at https://github.com/amillig/MERGE.
 
 ## Framework Implementation
 Using our protein engineering framework [PyPEF](https://github.com/Protein-Engineering-Framework/PyPEF), a simplified application of the MERGE hybrid method alongside other encoding and machine learning-based modeling methods is possible. Variant-fitness datasets that can be used for encoding and modeling with PyPEF are provided at [Data/_variant_fitness_wtseq](https://github.com/Protein-Engineering-Framework/MERGE/tree/main/Data/_variant_fitness_wtseq).
